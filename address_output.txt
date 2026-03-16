@@ -1,0 +1,14 @@
+=== Starting Bitcoin Core (regtest) ===
+Bitcoin Core starting
+=== Creating Wallet ===
+{
+  "name": "assignment2"
+}
+=== Legacy Address ===
+mqePauBGami276geWAC5QHQvNnd7KKR5bv
+=== Bech32 Address ===
+bcrt1qryj4vy7yzymnjnj3s7gw4ynlz90kn0t5h5epqw
+=== Bech32m Address ===
+bcrt1psc9apfxfa683lqm05gsqpc2u5c8af0anuhpywtuf3lnl3qzplqnqmkk8x5
+=== Stopping Daemon ===
+Bitcoin Core stopping

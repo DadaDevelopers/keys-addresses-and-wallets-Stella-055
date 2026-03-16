@@ -1,0 +1,11 @@
+What is the difference between hardened and non hardened keys
+
+Hardened keys in cryptocurrency wallets provide enhanced security by requiring the parent private key to derive child keys, preventing security leaks if an extended public key (xpub) is compromised. Non-hardened keys allow for faster public key derivation (watching) but can expose parent keys if a child private key is leaked
+
+Why should a wallet developer prefer deterministic wallets over non deterministic wallets
+
+Wallet developers prefer deterministic wallets (specifically Hierarchical Deterministic or HD wallets) over non-deterministic ("Just a Bunch of Keys" or JBOK) wallets because they drastically simplify key management, enhance user security, and provide superior recovery options. Instead of randomly generating unrelated private keys that require constant, manual backups, HD wallets derive an entire tree of addresses from a single seed phrase. 
+
+
+
+
